@@ -70,6 +70,7 @@ public class PaymentController {
     }
 
     // Get payments by car wash ID
+    //testing branch protection
     @GetMapping("/carWash/{carWashId}")
     public ResponseEntity<ApiResponse<List<Payment>>> getPaymentsByCarWash(@PathVariable Long carWashId) {
         List<Payment> payments = paymentService.getPaymentsByCarWash(carWashId);

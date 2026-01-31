@@ -73,11 +73,11 @@ export const JOB_STATUS = {
 
 // Status Colors (using JOB_STATUS instead of APPLICATION_STATUS)
 export const STATUS_COLORS = {
-  [JOB_STATUS.ACCEPTED]: '#00C853',   // Neon Green
-  [JOB_STATUS.REJECTED]: '#D50000',   // Danger Red
-  [JOB_STATUS.PENDING]: '#455A64',    // Asphalt Grey
-  [JOB_STATUS.COMPLETED]: '#2962FF',  // Electric Blue
-  [JOB_STATUS.IN_PROGRESS]: '#FFAB00',// Safety Yellow
+  [JOB_STATUS.ACCEPTED]: '#00C853',   // Neon Green.
+  [JOB_STATUS.REJECTED]: '#D50000',   // Danger Red.
+  [JOB_STATUS.PENDING]: '#455A64',    // Asphalt Grey.
+  [JOB_STATUS.COMPLETED]: '#2962FF',  // Electric Blue.
+  [JOB_STATUS.IN_PROGRESS]: '#FFAB00',// Safety Yellow.
 
   // Soft/faded colors (semi-transparent)
   SOFT_GREEN: 'rgba(0, 255, 0, 0.45)',

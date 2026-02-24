@@ -9,9 +9,9 @@ name: build mechanic-management backend
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "feature/github-actions" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "feature/github-actions" ]
 
 jobs:
   build:
